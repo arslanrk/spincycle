@@ -5,7 +5,7 @@ import { FaUserPlus } from "react-icons/fa";
 import { IoEye } from "react-icons/io5";
 import { IoEyeOff } from "react-icons/io5";
 
-const page = () => {
+const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
@@ -94,4 +94,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Login;
